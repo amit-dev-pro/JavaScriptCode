@@ -7,7 +7,11 @@ btn.addEventListener('click',async()=>{
     let fact=await getFetch()
      console.log(fact)
      let p=document.querySelector("#res")
-    p.innerHTML=fact
+    p.innerHTML=fact                                
+    
+
+
+
 })
 
 
