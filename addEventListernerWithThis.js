@@ -9,8 +9,11 @@ function changeColor(){
     console.dir(this.innerText)
     this.style.backgroundColor="blue"
 }
+function changecolor() {
+    this.style.background="brown"
+}
 
-btn.addEventListener("click",changeColor )
+btn.addEventListener("click",changecolor )
 
 h3.addEventListener("click", changeColor)
 
